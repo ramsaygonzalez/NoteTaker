@@ -105,7 +105,7 @@ var handleRenderSaveBtn = function() {
 
 // Render's the list of note titles
 var renderNoteList = function(notes) {
-  // $noteList.empty();
+  $noteList.empty();
 
   var noteListItems = [];
 
